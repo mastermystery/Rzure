@@ -30,7 +30,7 @@ const navStyles = {
     }
 }
 
-export default function Header({darkMode, handleThemeChange}: Props) {
+export default function Header({ darkMode, handleThemeChange }: Props) {
     return (
         <AppBar position='static' sx={{mb: 4}}>
             <Toolbar sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
@@ -76,5 +76,5 @@ export default function Header({darkMode, handleThemeChange}: Props) {
 
             </Toolbar>
         </AppBar>
-        )
+    )
 }
