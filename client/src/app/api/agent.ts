@@ -33,7 +33,7 @@ axios.interceptors.response.use(async response => {
         case 500:
             history.push({
                 pathname: '/server-error',
-                state: {error: data}
+                state: { error: data }
             });
             break;
         default:
